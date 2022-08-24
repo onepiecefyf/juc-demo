@@ -84,7 +84,7 @@ class Share {
   public void incr() throws InterruptedException {
     lock.lock();
     try {
-      while (number != 0) {
+      if (number != 0) {
         condition.await();
       }
       number++;
@@ -98,7 +98,7 @@ class Share {
   public void decr() throws InterruptedException {
     lock.lock();
     try {
-      while (number != 1) {
+      if (number != 1) {
         condition.await();
       }
       number--;
