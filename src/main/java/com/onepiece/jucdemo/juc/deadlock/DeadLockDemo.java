@@ -1,4 +1,4 @@
-package com.onepiece.jucdemo.deadlock;
+package com.onepiece.jucdemo.juc.deadlock;
 
 import java.util.concurrent.TimeUnit;
 

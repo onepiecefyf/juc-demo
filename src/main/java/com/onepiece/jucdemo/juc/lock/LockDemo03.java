@@ -1,4 +1,4 @@
-package com.onepiece.jucdemo.lock;
+package com.onepiece.jucdemo.juc.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
